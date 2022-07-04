@@ -1,0 +1,80 @@
+		* {margin: 0; padding: 0}
+
+		html, body {
+			height: 100%;
+		}
+
+		html {
+		font-family: sans-serif;
+		}
+
+		.standardPosition {
+			margin: 0.5rem;
+			padding: 10px;
+		}
+
+		body {
+		margin: 
+		width: 50%;
+		max-width: 800px;
+		min-width: 480px;
+		margin: 1.5rem auto;
+		}
+
+		.wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		}
+
+		.lastResult {
+		color: white;
+		padding: 3px;
+		}
+
+		.resumo {
+		text-align: justify;
+		grid-column: 1/2;
+		grid-row: 1/3;
+		border: 0.5rem solid lightblue;
+		border-radius: 10px;	
+		}
+
+		.resumo > h1 {
+		font-size: 1.5rem;
+		text-align: center;
+		}
+
+		.resumo > p {
+		margin: 1rem auto;
+		}
+
+		.form {
+		border: 0.5rem solid blue;
+		}
+
+		.resultadoParas {
+		border: 0.5rem solid black;
+		}
+
+		.form {
+		grid-column: 2/3;
+		grid-row: 1/2;
+		}
+
+		.resultadoParas  {
+		grid-column: 2/3;
+		grid-row: 2/3;
+		}
+
+		.envioPalpite {
+		margin: 5px auto;
+		padding: 5px;
+		border-style: none;
+		border-radius: 5px;
+		color: black;
+		background-color: lightblue;
+		}
+
+		.envioPalpite:hover {
+		background-color: cyan;
+		}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link src="jogoNumeroAleatorio.css" type="text/css" rel="stylesheet">
+	<script src="jogoNumeroAleatorio.js"></script>
+	<title>Jogo - Advinhe o número</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="resumo standardPosition">
+		<h1>Será que você consegue adivinhar o número?</h1>
+		<p>Em <b>7 chances</b> (ou menos) tente acertar o número entre 1 e 100 e veja se você é bom de palpite.</p>
+		<p>Você saberá se o seu palpite está muito alto, ou muito abaixo do número correto.</p>
+		</div>
+
+		<div class="form standardPosition">
+			<label for="campoPalpite">Digite seu palpite:</label>
+				<input type="text" id="campoPalpite" class="campoPalpite">
+				<input type="submit" value="Enviar palpite" class="envioPalpite">
+		</div>
+
+		<div class="resultadoParas standardPosition">
+			<p class="palpites"></p>
+			<p class="ultimoResultado"></p>
+			<p class="baixoOuAlto"></p>
+		</div>
+	</div>
+</body>
+</html>
